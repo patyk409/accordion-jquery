@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: floralwhite;
+}
+
+.accordion {
+    margin: 50px;
+    background-color: whitesmoke;
+    border-top: 5px solid midnightblue;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.accordion .item {
+    padding: 15px;
+    cursor: pointer;
+}
+
+.accordion .item:not(.item:last-of-type) {
+    border-bottom: 1px solid lightgrey;
+}
+
+.accordion .item .title span {
+    margin-right: 10px;
+    font-weight: bold;
+    color: midnightblue;
+}
+
+.accordion .item .content {
+    display: none;
+    padding: 15px 20px 0;
+    font-size: 14px;
+}
